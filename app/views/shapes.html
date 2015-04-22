@@ -1,0 +1,14 @@
+<ng-include src="'./views/header.html'"></ng-include>
+<div class="shapes_container" ng-controller="ShapesCtrl">
+    <div ng-repeat="s in shapes">
+        <form id="shape{{s.id}}" class="col-md-3 shape" formula="{{s.formula}}">
+            <img class="img-thumbnail top-margin" ng-src="{{s.image}}"/>
+            <div class="top-margin">{{s.name}}</div>
+            <div class="questions" ng-repeat="(k,q) in s.questions">
+                <input class="{{k}}" type="text" class="top-margin" placeholder="{{q}}"/>
+            </div>
+            <button id="submit{{s.id}}" ng-click="calculate_shape(s.id)" type="submit" class="btn btn-primary top-margin">{{calculate}}</button>
+        </form>
+    </div>
+
+</div>

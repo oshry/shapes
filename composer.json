@@ -1,0 +1,20 @@
+{
+    "name": "oshry/cars",
+    "description": "cars API",
+    "require": {
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
+    },
+    "authors": [
+        {
+            "name": "Oshry Levy",
+            "email": "oshrylevy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Shapes\\": "src/"
+        }
+    }
+}
