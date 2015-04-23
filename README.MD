@@ -19,3 +19,8 @@ in front end area calculation - only one call been made to back end in initial s
 
 refs
  - angular: http://bl.ocks.org/marcoslin/df4b741e92b2829eeae8
+<<<<<<< HEAD
+=======
+ - and more
+ - 33333
+>>>>>>> e3e5d4011606c1b0ebe08312090fff8f81bf9df6
