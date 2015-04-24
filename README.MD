@@ -20,3 +20,4 @@ in front end area calculation - only one call been made to back end in initial s
 refs
  - angular: http://bl.ocks.org/marcoslin/df4b741e92b2829eeae8
 
+fix1 readme
